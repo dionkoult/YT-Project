@@ -207,11 +207,22 @@
     flex: 0;
   }
 
-  .voice-search-button {
-    margin-left: -8px;
-  }
-
 }
 
+@media (max-width: 768px) {
+  .right-section {
+    width: 150px;
+  }
 
+  .search-bar {
+    margin-left: -35px;
+  }
 
+  .search-button {
+    margin-right: 20px;
+  }
+
+  .voice-search-button {
+    margin-left: -10px;
+  }
+}
