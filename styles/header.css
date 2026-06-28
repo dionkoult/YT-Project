@@ -212,12 +212,9 @@
   }
 
   .search-button {
-    margin-right: 20px;
+    margin-right: 5px;
     border-radius: 25px;
-  }
-
-  .voice-search-button {
-    margin-left: -10px;
+    width: 55px;
   }
 
   .hamburger-menu {
