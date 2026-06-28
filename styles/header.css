@@ -191,12 +191,13 @@
   cursor: pointer;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
   .right-section {
-    margin-right: 0;
+    margin-right: 10px;
     flex-shrink: 1;
     padding-right: 5px;
+    width: 150px;
   }
 
   .middle-section {
@@ -205,17 +206,8 @@
 
   .search-bar {
     flex: 0;
-  }
-
-}
-
-@media (max-width: 768px) {
-  .right-section {
-    width: 150px;
-  }
-
-  .search-bar {
-    margin-left: -35px;
+    margin-left: -30px;
+    width: 100px;
   }
 
   .search-button {
@@ -224,5 +216,10 @@
 
   .voice-search-button {
     margin-left: -10px;
+  }
+
+  .hamburger-menu {
+    margin-left: 10px;
+    margin-right: 20px;
   }
 }
