@@ -204,15 +204,16 @@
   .middle-section {
     margin-right: 10px;
     margin-left: 10px;
+    justify-content: center;
   }
 
   .search-bar {
-    flex: 1;
-    min-width: 0;
+    display: none;
   }
 
   .search-button {
     margin-right: 20px;
+    border-radius: 25px;
   }
 
   .voice-search-button {
